@@ -10,4 +10,8 @@ class User < BaseModel
   def emailable : Carbon::Address
     Carbon::Address.new(email)
   end
+
+  def director?
+    ENV.fetch("DIRECTORS_LIST").includes? self.email
+  end
 end
