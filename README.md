@@ -1,5 +1,11 @@
 # dark_crystal_school
 
+Outil de gestion de centre de formation
+
+
+
+### Framework
+
 This is a project written using [Lucky](https://luckyframework.org). Enjoy!
 
 ### Setting up the project
